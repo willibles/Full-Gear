@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  cursor: none;
+}
+.button {
+  background-color: rgba(55,55,55,0.5);
+  width: 10vw;
+  height: 100vh;
+  z-index: 5;
+}
+.button:active{
+  background-color: rgba(255,255,255,0.5);
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.gui {
+  background-color: rgba(0,0,0,0);
+  width: inherit;
+  height: inherit;
+  z-index: 4;
+}
+ #leftbutton{
+  position: absolute;
+  top: 0vh;
+  bottom: 0vh;
+  left: 0vw;
+  right: 90vw;
+}
+ #rightbutton{
+   position: absolute;
+   top: 0vh;
+   bottom: 0vh;
+   left: 90vw;
+   right: 0vw;
+ }
+ #attack{
+   border-radius: 1vw;
+   background-color: rgba(120,20,20,0.5);
+   width: 50vw;
+   height: 10vh;
+   text-align: center;
+   font-size: 8vh;
+   position: absolute;
+   top: 80vh;
+   bottom: 10vh;
+   left: 25vw;
+   right: 25vw;
+   z-Index: 5;
+   color: rgba(0,0,0,0.5);
+ }
+ #attack:active{
+   background-color: rgba(120,20,20,0.9);
+   color: white;
+ }
+ #game{
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+   z-index: 2;
+   position:absolute;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+ }

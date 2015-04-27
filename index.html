@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Bert</title>
+    <link rel="stylesheet" href="lib/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  </head>
+  <body onload="init()">
+    <div class="container">
+      <canvas id="game"></canvas>
+      <div class="gui">
+        <div class="button" id="leftbutton" onclick="press('left')"></div>
+        <div class="button" id="rightbutton" onclick="press('right')"></div>
+        <div id="attack" onclick="press('SHOOT')">&#9889;</div>
+      </div>
+    </div>
+    <script src="src/main.js"></script>
+  </body>
+</html>
