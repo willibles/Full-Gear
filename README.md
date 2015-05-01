@@ -1,5 +1,5 @@
 # Bert
-**A game by willibles.** Bert uilizes Bootstrap for the UI.
+**A game by willibles.** Bert uilizes Bootstrap and KiwiJS.
 
 ###Getting Started
 Clone the main repo by entering this command in your terminal : `git clone https://github.com/willibles/Bert.git`
