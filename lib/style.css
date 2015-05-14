@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: black;
-  cursor: none;
+  cursor: url("../bin/cursor.gif"), auto;
 }
 .button {
   background-color: rgba(55,55,55,0.5);
