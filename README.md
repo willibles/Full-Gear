@@ -1,5 +1,5 @@
 # Bert
-**A game by willibles, Thaiberius, and AK.** Bert utilizes Bootstrap and KiwiJS.
+**A game by willibles, Thaiberius, and AK.** Bert utilizes KiwiJS.
 
 ###Getting Started
  1. Clone the repo `git clone https://github.com/willibles/Bert.git`
