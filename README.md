@@ -1,4 +1,4 @@
-# Bert
+# FULL GEAR
 **A game by willibles, Thaiberius, and AK.** Bert utilizes KiwiJS.
 
 ###Getting Started
