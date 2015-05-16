@@ -5,11 +5,12 @@
     <meta charset="utf-8" />
     <link href="lib/style.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Titillium+Web:700&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
-    <script src="src/app.js" type="text/javascript"></script>
   </head>
-  <body onload="init()">
+  <body>
     <div class="container">
-      <canvas id="game"></canvas>
+      <canvas id="game"> 		
+		  <script src="src/kiwi.js" type="application/javascript"></script>
+    	<script src="src/app.js" type="application/javascript"></script> 	</canvas>
       <div class="gui">
         <div id="arrowkeys">
             <div class="arrow_button" id="leftbutton" onclick="press('left')"></div>

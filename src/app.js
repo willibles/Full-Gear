@@ -1,28 +1,17 @@
 //Development script, remember to convert to production, but create a copy first
-var init = function(){//Starting blocks of code
-    game.container.style.backgroundImage = "bin/bert_1.png";
+var game = new Kiwi.Game();
+var gameState = new Kiwi.State( 'gameState' );
+gameState.preload = function () {
+    Kiwi.State.prototype.preload.call(this);
+    this.addSpriteSheet( 'BertSprite', '../bin/spritesheet.png', 32, 32 );
+    this.addImage( 'background', '../bin/space-background.png' );
 };
-var shootButton = {
-  container : document.getElementById("attack"),
-  fire : function(){
-    //Shows it on the display
-  }
-};
-var game = {
-  container : document.getElementById('game'),
-  context : document.getElementById('game').getContext("2d"),
-  width : window.innerwidth,
-  height : window.innerheight,
-};
-var press = function(button){
-  if(button === "left"){
-    console.log("Left button pressed");
-  }else if(button === "right"){
-    console.log("Right button pressed");
-  }else if(button === "SHOOT"){
-    console.log("Shoot button pressed");
-    shootButton.fire();
-  }
+myState.create = function(){
+ 
+    Kiwi.State.prototype.create.call( this );
+ 
+    this.background = new Kiwi.GameObjects.StaticImage( this, this.textures.background, 0, 0 );
+    this.character = new Kiwi.GameObjects.Sprite( this, this.textures.BertSprite, 50, 30 );
 };
 /*On two occasions I have been asked, ‘Pray, Mr. Babbage, if
 you put into the machine wrong figures, will the right answers

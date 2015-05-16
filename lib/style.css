@@ -1,8 +1,9 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: black;
+  background-color: rgb(5, 5, 5);
   cursor: url("../bin/cursor.gif"), auto;
+  overflow: hidden;
 }
 #arrowkeys{
     width:100vw;
@@ -12,9 +13,10 @@ body {
 }
 .arrow_button {
   background-color: rgba(55,55,55,0.5);
-  width: 30vw;
+  width: 20vw;
   height: 30vh;
   z-index: 5;
+  border-radius: 5vh;
 }
 .arrow_button:active{
   background-color: rgba(255,205,205,0.5);
@@ -37,43 +39,28 @@ body {
   top: 35vh;
   bottom: 35vh;
   left: 0vw;
-  right: 70vw;
+  right: 80vw;
 }
  #rightbutton{
   position: absolute;
   top: 35vh;
   bottom: 35vh;
-  left: 70vw;
+  left: 80vw;
   right: 0vw;
  } 
  #upbutton{
   position: absolute;
   top: 0vh;
   bottom: 0vh;
-  left: 35vw;
-  right: 35vw;
+  left: 40vw;
+  right: 40vw;
 }
  #downbutton{
    position: absolute;
    top: 70vh;
    bottom: 0vh;
-   left: 35vw;
-   right: 35vw;
- }
- #attack{
-   border-radius: 1vw;
-   background-color: rgba(120,20,20,0.5);
-   width: 10vw;
-   height: 10vh;
-   text-align: center;
-   font-size: 8vh;
-   position: absolute;
-   top: 10vh;
-   bottom: 80vh;
-   left: 5vw;
-   right: 85vw;
-   z-Index: 5;
-   color: rgba(0,0,0,0.5);
+   left: 40vw;
+   right: 40vw;
  }
  #attack:active{
    background-color: rgba(120,20,20,0.9);
