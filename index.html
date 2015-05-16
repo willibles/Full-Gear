@@ -11,8 +11,12 @@
     <div class="container">
       <canvas id="game"></canvas>
       <div class="gui">
-        <div class="button" id="leftbutton" onclick="press('left')"></div>
-        <div class="button" id="rightbutton" onclick="press('right')"></div>
+        <div id="arrowkeys">
+            <div class="arrow_button" id="leftbutton" onclick="press('left')"></div>
+            <div class="arrow_button" id="rightbutton" onclick="press('right')"></div>
+            <div class="arrow_button" id="upbutton" onclick="press('up')"></div>
+            <div class="arrow_button" id="downbutton" onclick="press('down')"></div>
+          </div>
         <div id="attack" onclick="press('SHOOT')">&#9889;</div>
       </div>
     </div>
